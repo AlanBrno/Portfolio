@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes outline {
+    from { border: none; }
+    to   { border: #30AADD solid 6px; }
+  }
+
+.conteiner-grid {
+    max-width: 1324px;
+    width: 100%;
+}
+
+header {
+    background-color:#006778;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+main {
+    background-color: #0093AB;
+}
+
+.header-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.menu-navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-navbar li {
+    margin-left: 26px;
+}
+
+.link-menu {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-menu:hover {
+    color: #30AADD;
+    transition: 1s;
+}
+
+.active {
+    border-bottom: #30AADD 6px solid;
+    color: #30AADD;
+}
+
+.about-me {
+    background-image: url('../img/linkbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+}
+
+.about-me-conteiner {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    align-items: flex-end;
+}
+.about-me-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 520px;
+    margin-top: 10px;
+
+}
+.menu-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 681px;
+    list-style: none;
+    margin-top: 10px;
+        font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.menu-about-me {
+    background-color: #373E40;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.about-me-active {
+    border-radius: 75px 20px 75px 75px;
+    transition: 1s;
+    border: #30AADD solid 6px; 
+    text-decoration: underline;
+}
+
+.about-me-content-conteiner {
+    width: 681px;
+    height: 544px;
+    background-color: #373E40;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin: 20px;
+}
